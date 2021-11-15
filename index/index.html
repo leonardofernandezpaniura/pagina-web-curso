@@ -1,0 +1,60 @@
+<! DOCTYPE html>
+<html>
+         <head>
+		   <title>Red Social</title>
+		   <meta charset="UTF-8"/>
+		   <link href="css/estilo.css" rel="stylesheet"/>
+
+         </head>
+         <body>
+		 <header>
+		 
+		 <div  id="logo">
+		           <img src="img/logo.jpg" alt="logo"></a>
+		 <div/>
+		 </header>
+		 
+		 <section id="formulario"
+		 <from name="Nuevo Usuario" method="POST" action="php/conexionCrearUsuario.php">
+		 Nickname:<br>
+		 <input type="text" name="nickname" pattern="[a-zA-z0-9]+"placeholder="Ingresar Nickname" required><br>
+		 Contraseña:<br>
+		 <input type="password" name="contraseña" maxlenght="20" autocomplete="new-password" placeholder="Ingresar Contraseña" required><br>
+		 Nombre:<br>
+		 <input type="text" name="Nombre" placeholder="Ingresar Nombre" required><br>
+		 Apellido:<br>
+		 <input type="text" name="Apellido" placeholder="Ingresar Apellidos" required><br>
+		 Email:<br>
+		 <input type="text" name="Apellido" placeholder="Ingresar Apellidos" required><br>
+		 Edad:<br>
+		 <input type="number" name="Edad" min="18" placeholder="Ingresar su edad" required><br>
+		 Descripcion:<br>
+		 <textarea name="descripcion" placeholder="Ingresar descripcion" required></textarea><br>
+		 <input type="submit" name="enviar" class="boton" value="Registrate">
+		 <input type="reset"  class="boton" value="Borrar">
+		 <hr>
+		 </from>
+		 </section>
+		 
+		 <setion id="formulario2">
+		 <h2>Iniciar Sesion</h2>
+		 <from name="contacto" method="POST" action="php/IniciarSesion.php">
+		 Nickname:<br>
+		 <input type="text" name="nickname" placeholder="Ingresar Nickname" required><br>
+		 Contraseña:<br>
+		 <input type="password" name="contraseña"  autocomplete="off" placeholder="Ingresar Contraseña" required><br>
+		 
+		 <hr>
+		 <input type="submit" name="enviar" class="boton" value="Iniciar Sesion">
+		 </from>
+		 </section>
+		 
+		 
+		 
+		 
+		 
+	
+		 
+		 <footer>
+<p>	copyright 2020, lein123</p>
+</footer>
